@@ -3,7 +3,7 @@ on:
     branches: [ "master" ]
 
 env:
-  IMAGE_NAME: reactjs-image-gcp
+  IMAGE_NAME: reactjs-image
 jobs:
   build-and-push:
     runs-on: ubuntu-latest 
